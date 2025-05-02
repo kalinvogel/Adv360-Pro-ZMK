@@ -14,8 +14,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <125>;
-            quick_tap_ms = <125>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -44,6 +44,7 @@
 &mo 2       &kp GRAVE    &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &lt 1 DELETE             &hm LCTRL ESCAPE      &kp TAB        &lt 1 ENTER       &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT             &mo 2
             >;
         };
+
 
         keypad {
             display-name = "Kp";
